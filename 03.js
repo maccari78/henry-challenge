@@ -15,7 +15,7 @@ function buscarAmigo(amigos, nombre) { // H: amigos = [{nombre: "Alejo", edad: 5
 
   // Tu código aca:
   
-  var amigoEncontrado ={};
+  var amigoEncontrado = {};
 
   for(var i = 0; i < amigos.length; i++){
     if(amigos[i].nombre === nombre){

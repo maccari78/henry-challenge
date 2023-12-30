@@ -15,7 +15,7 @@ function stringMasLarga(strings) { // H: strings= [strings]    T: Retornar el st
   var masLarga = strings[0];
 
   for(var i = 1; i < strings.length; i++){
-    if(masLarga.length <= strings[i].length){ // masLarga = "hi" --> 2; strings[1] "hello" --> 5; "ni hao" --> 6; "guten tag" --> 9;
+    if(masLarga.length <= strings[i].length){ // masLarga = "hi" --> 2; strings[1] "hello" --> 4; "ni hao" --> 6; "guten tag" --> 9;
       masLarga = strings[i];
     }
   }

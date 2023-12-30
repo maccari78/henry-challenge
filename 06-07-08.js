@@ -37,8 +37,8 @@ function crearClasePersona() {
       // El método 'getFriends' debe retornar un arreglo con sólo los nombres del arreglo de amigos
       // de la persona.
       // Ej:
-      // Suponiendo que la persona tiene estos amigos: [{nombre: 'martin', edad: 31},{nombre: 'toni', edad: 33}]
-      // persona.getFriends() debería devolver ['martin', 'toni']
+      // Suponiendo que la persona tiene estos amigos: [{nombre: 'Martin', edad: 31},{nombre: 'Toni', edad: 33}]
+      // persona.getFriends() debería devolver ['Martin', 'Toni']
 
       // Tu código aca:
       return this.amigos.map(amigo => amigo.nombre);
@@ -59,7 +59,7 @@ function crearClasePersona() {
       // Si la persona tuviera estos amigos:
       // {
       //   amigos: [{
-      //     nombre: 'toni',
+      //     nombre: 'Toni',
       //     edad: 33,
       //   }, {
       //     nombre: 'Emi',
