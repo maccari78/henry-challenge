@@ -25,6 +25,9 @@ function buscarAmigo(amigos, nombre) { // H: amigos = [{nombre: "Alejo", edad: 5
   return amigoEncontrado;
 }
 
+// HenryChallenge practice - 16 feb 2023
+// https://www.youtube.com/watch?v=yFjPLU79UVg&ab_channel=Henry
+
 // No modifiques nada debajo de esta linea //
 
 module.exports = buscarAmigo
